@@ -1,0 +1,14 @@
+{
+	"cmd": [
+        "sh", "-c", "/usr/bin/cmake ~/Dropbox/Webs/whatismyip/ && /usr/bin/make && ~/Dropbox/Webs/whatismyip/build/test/whatismyip_test"
+	],
+    "working_dir": "~/Dropbox/Webs/whatismyip/build",
+    "variants":
+	[
+		{
+			"name": "Run",
+			"cmd": ["/usr/bin/pkill -9 whatismyip; ~/Dropbox/Webs/whatismyip/build/bin/whatismyip"],
+			"shell" : true
+		}
+	]
+}
