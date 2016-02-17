@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Mock",
+				"MockHTTPMessage"
+			],
+			[
+				"Mo",
+				"MOCK_METHOD0"
+			],
+			[
+				"set",
+				"setClientIP"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"get",
+				"getClientIP"
+			],
+			[
+				"class",
+				"class	class-..-(class)"
+			],
+			[
+				"main",
+				"main	main()"
+			],
+			[
+				"io",
+				"I-stdio	inc"
+			],
+			[
+				"project",
+				"PROJECT_NAME"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test/CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 1723,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/EchoHandler.cpp",
+			"settings":
+			{
+				"buffer_size": 1315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/EchoHandler.h",
+			"settings":
+			{
+				"buffer_size": 1060,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/EchoStats.h",
+			"settings":
+			{
+				"buffer_size": 733,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/main.cpp",
+			"settings":
+			{
+				"buffer_size": 2695,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/EchoHandlerTest.cpp",
+			"settings":
+			{
+				"buffer_size": 2356,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/C++CMAKEWHATISMYIP.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 611.0
+	},
+	"console":
+	{
+		"height": 423.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/kainlite/.config/sublime-text-2/Packages/User/C++CMAKEWHATISMYIP.sublime-build",
+		"/home/kainlite/Webs/whatismyip/whatismyip.sublime-build",
+		"/home/kainlite/.config/sublime-text-2/Packages/User/C++CMAKECHAPPI.sublime-build",
+		"/home/kainlite/Webs/whatsmyip/src/EchoServer.cpp",
+		"/home/kainlite/Webs/chappi/bin/main.cpp",
+		"/home/kainlite/Webs/chappi/src/user.h",
+		"/home/kainlite/Webs/chappi/src/user.cpp",
+		"/home/kainlite/Webs/chappi/bin/CMakeLists.txt",
+		"/home/kainlite/Webs/chappi/test/main.cpp",
+		"/home/kainlite/Webs/chappi/test/User_test.cpp",
+		"/home/kainlite/Webs/chappi/src/CMakeLists.txt",
+		"/home/kainlite/Webs/chappi/test/CMakeLists.txt",
+		"/home/kainlite/Webs/chappi/CMakeLists.txt",
+		"/home/kainlite/Webs/chappi/lib/CMakeLists.txt",
+		"/home/kainlite/Webs/chappi/build/chappi.sublime-project",
+		"/home/kainlite/Webs/chappi/src/users.cpp",
+		"/home/kainlite/Webs/chappi/src/main.cpp",
+		"/home/kainlite/Webs/chappi/src/main"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MockResponseHandler",
+			"MockEchoStats",
+			"onrequest",
+			"httpMessage",
+			"onRequest",
+			"getRequestCount",
+			"recordRequest",
+			"onRequest",
+			"recor",
+			"stats\nstats",
+			"EOM",
+			"std::move(body_)",
+			"head",
+			"chappi",
+			"\n	",
+			"\");",
+			"chappi",
+			"GTEST_LIBRARIES",
+			"binary_dir",
+			"source_dir"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"whatismyip",
+			"${APP_NAME}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test/CMakeLists.txt",
+					"settings":
+					{
+						"buffer_size": 1723,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								647,
+								647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMake/CMake.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/EchoHandler.cpp",
+					"settings":
+					{
+						"buffer_size": 1315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/EchoHandler.h",
+					"settings":
+					{
+						"buffer_size": 1060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								609
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/EchoStats.h",
+					"settings":
+					{
+						"buffer_size": 733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bin/main.cpp",
+					"settings":
+					{
+						"buffer_size": 2695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1474,
+								1474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "test/EchoHandlerTest.cpp",
+					"settings":
+					{
+						"buffer_size": 2356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1448,
+								1448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 376.0
+	},
+	"output.test_runner":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 113.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
