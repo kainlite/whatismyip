@@ -1,5 +1,7 @@
 # WhatIsMyIp.cpp
 
+[![Build Status](https://travis-ci.org/kainlite/whatismyip.svg?branch=master)](https://travis-ci.org/kainlite/whatismyip)
+
 ### First of all make sure you have all these packages:
 unzip git curl cmake flex bison gperf wget pkg-config 
 

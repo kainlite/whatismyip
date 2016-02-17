@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"for	For Loop"
+			],
+			[
 				"Mock",
 				"MockHTTPMessage"
 			],
@@ -44,10 +48,19 @@
 	"buffers":
 	[
 		{
-			"file": "test/CMakeLists.txt",
+			"file": ".travis.yml",
 			"settings":
 			{
-				"buffer_size": 1723,
+				"buffer_size": 628,
+				"line_ending": "Unix",
+				"name": ".travis.yml"
+			}
+		},
+		{
+			"contents": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n    	std::vector<int> result;\n        for (int i = 0; i < nums.size(); ++i)\n        {\n        	if (nums[i] == target) {\n        		result.push_back(i);\n        		return result;\n        	}\n        }\n\n        for (int i = 0; i < nums.size(); ++i)\n        {\n        	for (int j = 0; j < nums.size(); ++j)\n        	{\n        		if (nums[i] + nums[j] == target) {\n        			result.push_back(i);\n        			result.push_back(j);\n        			return result;\n        		}\n\n        	}\n        }\n    }\n};",
+			"settings":
+			{
+				"buffer_size": 570,
 				"line_ending": "Unix"
 			}
 		},
@@ -90,14 +103,38 @@
 				"buffer_size": 2356,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/User/C++CMAKEWHATISMYIP.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 112.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: instal",
 				"Package Control: Install Package"
@@ -123,7 +160,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 611.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -140,6 +177,7 @@
 	},
 	"file_history":
 	[
+		"/home/kainlite/Webs/whatismyip/test/CMakeLists.txt",
 		"/home/kainlite/.config/sublime-text-2/Packages/User/C++CMAKEWHATISMYIP.sublime-build",
 		"/home/kainlite/Webs/whatismyip/whatismyip.sublime-build",
 		"/home/kainlite/.config/sublime-text-2/Packages/User/C++CMAKECHAPPI.sublime-build",
@@ -214,39 +252,65 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/CMakeLists.txt",
+					"file": ".travis.yml",
 					"settings":
 					{
-						"buffer_size": 1723,
+						"buffer_size": 628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								647,
-								647
+								628,
+								628
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CMake/CMake.tmLanguage",
-							"tab_size": 4,
+							"auto_name": ".travis.yml",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "src/EchoHandler.cpp",
 					"settings":
 					{
@@ -263,7 +327,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
+							"syntax": "Packages/C++11/C++11.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -274,7 +338,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "src/EchoHandler.h",
 					"settings":
 					{
@@ -302,7 +366,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "src/EchoStats.h",
 					"settings":
 					{
@@ -330,7 +394,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "bin/main.cpp",
 					"settings":
 					{
@@ -352,13 +416,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 1207.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "test/EchoHandlerTest.cpp",
 					"settings":
 					{
@@ -369,8 +433,8 @@
 						"selection":
 						[
 							[
-								1448,
-								1448
+								2,
+								2
 							]
 						],
 						"settings":
@@ -380,7 +444,59 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "CMakeLists.txt",
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMake/CMake.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -452,6 +568,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 279.0,
 	"status_bar_visible": true
 }

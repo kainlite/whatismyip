@@ -1,0 +1,22 @@
+language: cpp
+
+sudo: required
+
+install:
+  - export CXX=${COMPILER}
+  - cd ${TRAVIS_BUILD_DIR}
+  - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
+  - sudo apt-get -qq remove cmake
+  - sudo apt-get -qq purge cmake
+  - sudo add-apt-repository --yes ppa:george-edison55/precise-backports
+  - sudo apt-get update -qq
+  - sudo apt-get install cmake
+  - git clone https://github.com/facebook/proxygen proxygen
+  - cd proxygen/proxygen
+  - ./deps.sh
+  - cd ..
+  - mkdir -p build
+  - cd build
+  - cmake ..
+  - make 
+  - ctest -v
