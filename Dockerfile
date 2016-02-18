@@ -22,7 +22,7 @@ RUN apt-get install -yq \
 WORKDIR /home
 RUN git clone https://github.com/facebook/proxygen.git
 WORKDIR /home/proxygen/proxygen
-RUN ./deps.sh && ./reinstall.sh
+RUN ./deps.sh
 RUN git clone https://github.com/kainlite/whatismyip whatismyip && cd whatismyip 
 WORKDIR /home/proxygen/proxygen/whatismyip/build
 RUN cmake .. && make

@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-- docker pull kainlite/whatismyip
+- docker build -t kainlite/whatismyip .
 - docker run -d -p 127.0.0.1:11000:11000 kainlite/whatismyip /bin/sh -c "cd /home/proxygen/proxygen/whatismyip/; ./bin/whatismyip;"
 - docker ps -a
 - docker run kainlite/whatismyip /bin/sh -c "cd /home/proxygen/proxygen/whatismyip/; ./test/whatismyip_test"
