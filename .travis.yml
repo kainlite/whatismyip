@@ -1,49 +1,15 @@
+sudo: required
+
 language: cpp
 
-sudo: false
+services:
+  - docker
 
-addons:
-  apt:
-    sources:
-    - deadsnakes
-    - ubuntu-toolchain-r-test
-    - precise-backports
-    packages:
-    - cmake
-    - time
-    - libdouble-conversion-dev
-    - libgflags-dev
-    - libgoogle-glog-dev
-    - g++
-    - flex
-    - bison
-    - libkrb5-dev
-    - libsasl2-dev
-    - libnuma-dev
-    - pkg-config
-    - libssl-dev
-    - libcap-dev
-    - gperf
-    - autoconf-archive
-    - libevent-dev
-    - libtool
-    - libboost-all-dev
-    - libjemalloc-dev
-    - libsnappy-dev
-    - wget
-    - unzip
+before_install:
+- docker pull kainlite/whatismyip
+- docker run -d -p 127.0.0.1:11000:11000 kainlite/whatismyip /bin/sh -c "cd /home/proxygen/proxygen/whatismyip/; ./bin/whatismyip;"
+- docker ps -a
+- docker run kainlite/whatismyip /bin/sh -c "cd /home/proxygen/proxygen/whatismyip/; ./test/whatismyip_test"
 
-
-install:
-  - export CXX=${COMPILER}
-  - cd ${TRAVIS_BUILD_DIR}
-  - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
-  - git clone https://github.com/facebook/proxygen proxygen
-  - cd proxygen/proxygen
-  - ./deps.sh
-  - cd ..
-  - mkdir -p build
-  - cd build
-  - cmake ..
-  - make 
-  - ctest -v
+script:
+- ctest -v
