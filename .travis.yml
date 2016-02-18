@@ -1,16 +1,43 @@
 language: cpp
 
-sudo: required
+sudo: false
+
+addons:
+  apt:
+    sources:
+    - deadsnakes
+    - ubuntu-toolchain-r-test
+    - precise-backports
+    packages:
+    - cmake
+    - time
+    - libdouble-conversion-dev
+    - libgflags-dev
+    - libgoogle-glog-dev
+    - g++
+    - flex
+    - bison
+    - libkrb5-dev
+    - libsasl2-dev
+    - libnuma-dev
+    - pkg-config
+    - libssl-dev
+    - libcap-dev
+    - gperf
+    - autoconf-archive
+    - libevent-dev
+    - libtool
+    - libboost-all-dev
+    - libjemalloc-dev
+    - libsnappy-dev
+    - wget
+    - unzip
+
 
 install:
   - export CXX=${COMPILER}
   - cd ${TRAVIS_BUILD_DIR}
   - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
-  - sudo apt-get -qq remove cmake
-  - sudo apt-get -qq purge cmake
-  - sudo add-apt-repository --yes ppa:george-edison55/precise-backports
-  - sudo apt-get update -qq
-  - sudo apt-get install cmake
   - git clone https://github.com/facebook/proxygen proxygen
   - cd proxygen/proxygen
   - ./deps.sh
