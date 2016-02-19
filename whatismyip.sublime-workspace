@@ -51,72 +51,16 @@
 			"file": ".travis.yml",
 			"settings":
 			{
-				"buffer_size": 628,
+				"buffer_size": 384,
 				"line_ending": "Unix",
 				"name": ".travis.yml"
 			}
 		},
 		{
-			"contents": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n    	std::vector<int> result;\n        for (int i = 0; i < nums.size(); ++i)\n        {\n        	if (nums[i] == target) {\n        		result.push_back(i);\n        		return result;\n        	}\n        }\n\n        for (int i = 0; i < nums.size(); ++i)\n        {\n        	for (int j = 0; j < nums.size(); ++j)\n        	{\n        		if (nums[i] + nums[j] == target) {\n        			result.push_back(i);\n        			result.push_back(j);\n        			return result;\n        		}\n\n        	}\n        }\n    }\n};",
+			"file": "Dockerfile",
 			"settings":
 			{
-				"buffer_size": 570,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/EchoHandler.cpp",
-			"settings":
-			{
-				"buffer_size": 1315,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/EchoHandler.h",
-			"settings":
-			{
-				"buffer_size": 1060,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/EchoStats.h",
-			"settings":
-			{
-				"buffer_size": 733,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bin/main.cpp",
-			"settings":
-			{
-				"buffer_size": 2695,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test/EchoHandlerTest.cpp",
-			"settings":
-			{
-				"buffer_size": 2356,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 515,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "CMakeLists.txt",
-			"settings":
-			{
-				"buffer_size": 311,
+				"buffer_size": 808,
 				"line_ending": "Unix"
 			}
 		}
@@ -127,6 +71,10 @@
 		"height": 112.0,
 		"selected_items":
 		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -177,6 +125,14 @@
 	},
 	"file_history":
 	[
+		"/home/kainlite/Webs/whatismyip/src/EchoHandler.cpp",
+		"/home/kainlite/Webs/whatismyip/src/EchoHandler.h",
+		"/home/kainlite/Webs/whatismyip/src/EchoStats.h",
+		"/home/kainlite/Webs/whatismyip/bin/main.cpp",
+		"/home/kainlite/Webs/whatismyip/test/EchoHandlerTest.cpp",
+		"/home/kainlite/Webs/whatismyip/README.md",
+		"/home/kainlite/Webs/whatismyip/CMakeLists.txt",
+		"/home/kainlite/test.cpp",
 		"/home/kainlite/Webs/whatismyip/test/CMakeLists.txt",
 		"/home/kainlite/.config/sublime-text-2/Packages/User/C++CMAKEWHATISMYIP.sublime-build",
 		"/home/kainlite/Webs/whatismyip/whatismyip.sublime-build",
@@ -260,15 +216,15 @@
 					"file": ".travis.yml",
 					"settings":
 					{
-						"buffer_size": 628,
+						"buffer_size": 384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								628,
-								628
+								240,
+								240
 							]
 						],
 						"settings":
@@ -286,214 +242,25 @@
 				},
 				{
 					"buffer": 1,
+					"file": "Dockerfile",
 					"settings":
 					{
-						"buffer_size": 570,
+						"buffer_size": 808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								570,
-								570
+								531,
+								531
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++11/C++11.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/EchoHandler.cpp",
-					"settings":
-					{
-						"buffer_size": 1315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								692,
-								692
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Dockerfile Syntax Highlighting/Syntaxes/Dockerfile.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/EchoHandler.h",
-					"settings":
-					{
-						"buffer_size": 1060,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								609,
-								609
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/EchoStats.h",
-					"settings":
-					{
-						"buffer_size": 733,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								347,
-								347
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "bin/main.cpp",
-					"settings":
-					{
-						"buffer_size": 2695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1474,
-								1474
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1207.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "test/EchoHandlerTest.cpp",
-					"settings":
-					{
-						"buffer_size": 2356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2,
-								2
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "CMakeLists.txt",
-					"settings":
-					{
-						"buffer_size": 311,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								37,
-								37
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CMake/CMake.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
