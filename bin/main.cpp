@@ -34,7 +34,7 @@ DEFINE_int32(threads, 0, "Number of threads to listen on. Numbers <= 0 "
 
 class EchoHandlerFactory : public RequestHandlerFactory {
  public:
-  void onServerStart(folly::EventBase* evb) noexcept override {
+  void onServerStart() noexcept override {
     stats_.reset(new EchoStats);
   }
 
@@ -68,7 +68,6 @@ int main(int argc, char* argv[]) {
   options.threads = static_cast<size_t>(FLAGS_threads);
   options.idleTimeout = std::chrono::milliseconds(60000);
   options.shutdownOn = {SIGINT, SIGTERM};
-  options.enableContentCompression = true;
   options.handlerFactories = RequestHandlerChain()
       .addThen<EchoHandlerFactory>()
       .build();
