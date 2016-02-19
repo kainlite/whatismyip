@@ -51,7 +51,7 @@
 			"file": ".travis.yml",
 			"settings":
 			{
-				"buffer_size": 384,
+				"buffer_size": 349,
 				"line_ending": "Unix",
 				"name": ".travis.yml"
 			}
@@ -60,7 +60,7 @@
 			"file": "Dockerfile",
 			"settings":
 			{
-				"buffer_size": 202,
+				"buffer_size": 200,
 				"line_ending": "Unix"
 			}
 		},
@@ -133,6 +133,7 @@
 	},
 	"file_history":
 	[
+		"/home/kainlite/Webs/whatismyip/COMMIT_EDITMSG.COMMIT_EDITMSG",
 		"/home/kainlite/Webs/whatismyip/src/EchoHandler.cpp",
 		"/home/kainlite/Webs/whatismyip/src/EchoHandler.h",
 		"/home/kainlite/Webs/whatismyip/src/EchoStats.h",
@@ -216,7 +217,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -224,15 +225,15 @@
 					"file": ".travis.yml",
 					"settings":
 					{
-						"buffer_size": 384,
+						"buffer_size": 349,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								240,
-								240
+								222,
+								222
 							]
 						],
 						"settings":
@@ -253,15 +254,15 @@
 					"file": "Dockerfile",
 					"settings":
 					{
-						"buffer_size": 202,
+						"buffer_size": 200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								135,
+								135
 							]
 						],
 						"settings":
