@@ -51,7 +51,7 @@
 			"file": ".travis.yml",
 			"settings":
 			{
-				"buffer_size": 349,
+				"buffer_size": 394,
 				"line_ending": "Unix",
 				"name": ".travis.yml"
 			}
@@ -225,15 +225,15 @@
 					"file": ".travis.yml",
 					"settings":
 					{
-						"buffer_size": 349,
+						"buffer_size": 394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								222,
-								222
+								239,
+								239
 							]
 						],
 						"settings":
