@@ -7,7 +7,7 @@ services:
 
 before_install:
 - docker build --no-cache -t kainlite/whatismyip .
-- docker run -d -p 127.0.0.1:11000:11000 kainlite/whatismyip /bin/sh -c "cd /root/whatismyip/; ./bin/whatismyip;"
+- docker run -d -p 127.0.0.1:11000:11000 kainlite/whatismyip /bin/sh -c "cd /root/whatismyip/; ./build/bin/whatismyip;"
 - docker ps -a
 
 script:

@@ -51,7 +51,7 @@
 			"file": ".travis.yml",
 			"settings":
 			{
-				"buffer_size": 494,
+				"buffer_size": 389,
 				"line_ending": "Unix",
 				"name": ".travis.yml"
 			}
@@ -68,7 +68,7 @@
 			"file": "bin/main.cpp",
 			"settings":
 			{
-				"buffer_size": 2348,
+				"buffer_size": 2346,
 				"line_ending": "Unix"
 			}
 		}
@@ -225,15 +225,15 @@
 					"file": ".travis.yml",
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								492,
-								492
+								222,
+								222
 							]
 						],
 						"settings":
@@ -282,15 +282,15 @@
 					"file": "bin/main.cpp",
 					"settings":
 					{
-						"buffer_size": 2348,
+						"buffer_size": 2346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2348,
-								2348
+								898,
+								898
 							]
 						],
 						"settings":
@@ -300,7 +300,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
