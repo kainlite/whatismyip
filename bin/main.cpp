@@ -34,7 +34,7 @@ DEFINE_int32(threads, 0, "Number of threads to listen on. Numbers <= 0 "
 
 class EchoHandlerFactory : public RequestHandlerFactory {
  public:
-  void onServerStart(folly::EventBase* evb) noexcept override {
+  void onServerStart() noexcept override {
     stats_.reset(new EchoStats);
   }
 
