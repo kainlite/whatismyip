@@ -28,13 +28,13 @@ using folly::SocketAddress;
 using Protocol = HTTPServer::Protocol;
 
 DEFINE_int32(http_port, 11000, "Port to listen on with HTTP protocol");
-DEFINE_string(ip, "localhost", "IP/Hostname to bind to");
+DEFINE_string(ip, "0.0.0.0", "IP/Hostname to bind to");
 DEFINE_int32(threads, 0, "Number of threads to listen on. Numbers <= 0 "
              "will use the number of cores on this machine.");
 
 class EchoHandlerFactory : public RequestHandlerFactory {
  public:
-  void onServerStart() noexcept override {
+  void onServerStart(folly::EventBase* evb) noexcept override {
     stats_.reset(new EchoStats);
   }
 
